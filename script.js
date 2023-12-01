@@ -4,7 +4,7 @@
            var modal = document.getElementsByClassName("modal")[0];
            openModal.onclick = function()
            {
-              modal.style.display = "none";
+              modal.style.display = "block";
            }
            closeModal.onclick = function()
            {
