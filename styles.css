@@ -1,41 +1,20 @@
 /*  your css code here. If applicable */
- body{
-              
-                 margin:0px;
-                 padding:2px;
-                 box-sizing: border-box;
-                 background-color:rgb(202, 194, 194);
-           }
-           .modal{
-              background-color:white;
-              border:1px solid black;
-              height:200px;
-              display:none;
-             
-           }
-           h2{
-               background-color:rgb(104, 187, 104);
-               color:#ffffff;
-               height:60px;
-               display: flex;
-               justify-content: flex-start;
-               align-items: center;
-               padding-left:15px;
-               margin-left:20px;
-               margin-right:20px;
-               
-           }
-           .modal-body{
-
-              padding-left:15px;
-               margin-left:20px;
-               margin-right:20px;
-               font-size:20px;
-               font-weight:700;
-               margin-top:-40px;
-           }
-           .close-modal{
-
-              margin-left:1470px;
-              
-           }
+ .width{
+	width:60%;
+}
+.modal-dialog {
+    max-width: 88% !important ; 
+}
+.modal-title {
+	width:100%  !important ;
+	height:50px;
+	display:flex;
+	align-items:center;
+}
+.modal-body {
+    display: flex;
+    justify-content: space-between;
+}
+.close{
+	margin-bottom:25px  !important ;
+}
